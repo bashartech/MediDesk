@@ -224,7 +224,7 @@ window.MediDesk.toggle();  // Toggle open/close
 
 2. **Get Your Widget URL:**
    ```
-   https://your-project.vercel.app/medidesk.js
+   https://medi-desk-omega.vercel.app/medidesk.js
    ```
 
 3. **Share with Hospitals:**
@@ -302,7 +302,7 @@ Hospitals can add it to their website with just **one line of code**:
 If hospitals need help:
 - Email: support@medidesk.com
 - Documentation: `WIDGET_EMBEDDING_GUIDE.md`
-- Demo: `https://your-domain.com/widget-demo.html`
+- Demo: `https://medi-desk-omega.vercel.app/widget-demo.html`
 
 ---
 

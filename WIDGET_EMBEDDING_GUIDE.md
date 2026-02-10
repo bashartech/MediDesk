@@ -357,7 +357,7 @@ If your website uses CSP, add these directives:
 ```html
 <meta http-equiv="Content-Security-Policy"
       content="
-        script-src 'self' https://your-domain.com;
+        script-src 'self' https://medi-desk-omega.vercel.app;
         connect-src 'self' https://api.mistral.ai https://firestore.googleapis.com;
         style-src 'self' 'unsafe-inline';
       ">

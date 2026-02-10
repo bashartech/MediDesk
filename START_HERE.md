@@ -155,7 +155,7 @@ netlify deploy --prod --dir=dist
 3. Add all variables from `.env`
 4. Redeploy
 
-**✅ Success if:** You can access `https://your-domain.com/medidesk.js`
+**✅ Success if:** You can access `https://medi-desk-omega.vercel.app/medidesk.js`
 
 ---
 
