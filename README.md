@@ -19,7 +19,7 @@ MediDesk can now be embedded on **any website** with just one line of code! Perf
 
 **Works on:** WordPress, Wix, Webflow, Shopify, and any custom HTML website.
 
-👉 **[View Embedding Guide](WIDGET_EMBEDDING_GUIDE.md)** | **[Deployment Guide](DEPLOYMENT_GUIDE.md)**
+👉 **[View Embedding Guide](WIDGET_EMBEDDING_GUIDE.md)** 
 
 ---
 
@@ -640,7 +640,7 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For support, email info@yourhospital.com or open an issue on GitHub.
+For support, email bashartc13@gmail.com or open an issue on GitHub.
 
 ---
 
