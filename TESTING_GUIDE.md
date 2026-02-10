@@ -183,7 +183,7 @@ After deploying to Vercel/Netlify:
    <html>
    <body>
        <h1>Test Page</h1>
-       <script src="https://your-domain.vercel.app/medidesk.js"></script>
+       <script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
    </body>
    </html>
    ```
