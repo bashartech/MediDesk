@@ -5,7 +5,7 @@
 Add MediDesk to any website with just one line of code:
 
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 That's it! The chatbot will appear in the bottom-right corner of your website.
@@ -30,7 +30,7 @@ That's it! The chatbot will appear in the bottom-right corner of your website.
 Add this script tag before the closing `</body>` tag of your website:
 
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ### With Configuration
@@ -39,7 +39,7 @@ Customize the widget using data attributes:
 
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-hospital-id="your-hospital-id"
   data-position="bottom-right"
   data-theme="blue"
@@ -63,7 +63,7 @@ Customize the widget using data attributes:
 **Bottom-left position:**
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-position="bottom-left"
 ></script>
 ```
@@ -71,7 +71,7 @@ Customize the widget using data attributes:
 **Auto-open on page load:**
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-auto-open="true"
 ></script>
 ```
@@ -79,7 +79,7 @@ Customize the widget using data attributes:
 **Custom hospital:**
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-hospital-id="city-general-hospital"
 ></script>
 ```
@@ -152,7 +152,7 @@ Add the script before the closing `</body>` tag in your HTML file:
     <!-- Your website content -->
 
     <!-- MediDesk Widget -->
-    <script src="https://your-domain.com/medidesk.js"></script>
+    <script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 </body>
 </html>
 ```

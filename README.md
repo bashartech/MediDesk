@@ -14,12 +14,27 @@ MediDesk can now be embedded on **any website** with just one line of code! Perf
 
 ```html
 <!-- Add to any website -->
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 **Works on:** WordPress, Wix, Webflow, Shopify, and any custom HTML website.
 
 👉 **[View Embedding Guide](WIDGET_EMBEDDING_GUIDE.md)** 
+
+---
+
+## 🌐 Live Demo
+
+**Production URL:** https://medi-desk-omega.vercel.app/
+
+**Widget Demo:** https://medi-desk-omega.vercel.app/widget-demo.html
+
+**Example Integration:** https://medi-desk-omega.vercel.app/example-hospital-website.html
+
+**Embed Code:**
+```html
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
+```
 
 ---
 

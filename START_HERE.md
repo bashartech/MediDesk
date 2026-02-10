@@ -19,7 +19,7 @@ This guide will walk you through **exactly what to do next** in 5 simple steps.
 **What hospitals need to do:**
 ```html
 <!-- Add this ONE line to their website -->
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 That's it! The chatbot appears automatically.
@@ -119,7 +119,7 @@ vercel --prod
 **Follow the prompts:**
 1. Link to existing project or create new
 2. Wait for deployment
-3. Get your URL: `https://your-project.vercel.app`
+3. Get your URL: `https://medi-desk-omega.vercel.app`
 
 **Configure Environment Variables:**
 1. Go to Vercel dashboard
@@ -174,7 +174,7 @@ Create a test HTML file on your computer:
     <p>The chatbot should appear in the bottom-right corner.</p>
 
     <!-- Use your production URL -->
-    <script src="https://your-project.vercel.app/medidesk.js"></script>
+    <script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 </body>
 </html>
 ```
@@ -196,14 +196,14 @@ Create a test HTML file on your computer:
 
 ```html
 <!-- Add before closing </body> tag -->
-<script src="https://your-project.vercel.app/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 **With configuration options:**
 
 ```html
 <script
-  src="https://your-project.vercel.app/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-hospital-id="their-hospital-id"
   data-position="bottom-right"
   data-theme="blue"
@@ -212,8 +212,8 @@ Create a test HTML file on your computer:
 
 **Share these documents:**
 1. `WIDGET_EMBEDDING_GUIDE.md` - Complete guide for hospitals
-2. Demo link: `https://your-project.vercel.app/widget-demo.html`
-3. Support email: your-email@example.com
+2. Demo link: `https://medi-desk-omega.vercel.app/widget-demo.html`
+3. Support email: bashartc13@gmail.com
 
 **✅ Success if:** Hospital can add widget to their site
 
@@ -313,12 +313,12 @@ Once all steps are complete, your widget is **live and ready** for hospitals to 
 
 **Your widget URL:**
 ```
-https://your-project.vercel.app/medidesk.js
+https://medi-desk-omega.vercel.app/medidesk.js
 ```
 
 **Hospitals add this ONE line:**
 ```html
-<script src="https://your-project.vercel.app/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ---

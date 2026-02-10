@@ -74,14 +74,14 @@ Create a test HTML file:
 
 ```html
 <!-- Add before closing </body> tag -->
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ### **Option 2: With Configuration**
 
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-hospital-id="city-hospital-001"
   data-position="bottom-right"
   data-theme="blue"
@@ -92,7 +92,7 @@ Create a test HTML file:
 ### **Option 3: Programmatic Control**
 
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 
 <script>
   // Initialize with custom config
@@ -236,7 +236,7 @@ window.MediDesk.toggle();  // Toggle open/close
 
 1. **Get Embed Code:**
    ```html
-   <script src="https://your-domain.com/medidesk.js"></script>
+   <script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
    ```
 
 2. **Add to Website:**
@@ -292,7 +292,7 @@ Your MediDesk chatbot is now **fully embeddable**!
 Hospitals can add it to their website with just **one line of code**:
 
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ---

@@ -66,7 +66,7 @@ netlify deploy --prod --dir=dist
 
 **Your widget URL will be:**
 ```
-https://your-project.vercel.app/medidesk.js
+https://medi-desk-omega.vercel.app/medidesk.js
 ```
 
 ---
@@ -77,7 +77,7 @@ https://your-project.vercel.app/medidesk.js
 
 ```html
 <!-- Add this ONE line before </body> tag -->
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 **That's it!** The chatbot will appear in the bottom-right corner.
@@ -86,7 +86,7 @@ https://your-project.vercel.app/medidesk.js
 
 ```html
 <script
-  src="https://your-domain.com/medidesk.js"
+  src="https://medi-desk-omega.vercel.app/medidesk.js"
   data-hospital-id="city-hospital-001"
   data-position="bottom-right"
   data-theme="blue"
@@ -97,7 +97,7 @@ https://your-project.vercel.app/medidesk.js
 ### **Option 3: Programmatic Control**
 
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 
 <button onclick="window.MediDesk.open()">Open Chat</button>
 <button onclick="window.MediDesk.close()">Close Chat</button>
@@ -283,7 +283,7 @@ scp -r dist/* user@server:/var/www/html/
 
 1. **Embed Code:**
    ```html
-   <script src="https://your-domain.com/medidesk.js"></script>
+   <script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
    ```
 
 2. **Documentation:**

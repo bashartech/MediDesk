@@ -30,7 +30,7 @@ npm install -g vercel
 vercel --prod
 
 # Your widget will be at:
-# https://your-project.vercel.app/medidesk.js
+# https://medi-desk-omega.vercel.app/medidesk.js
 ```
 
 ## Share with Hospitals
@@ -38,7 +38,7 @@ vercel --prod
 Provide this code:
 
 ```html
-<script src="https://your-project.vercel.app/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ## Done! 🎉

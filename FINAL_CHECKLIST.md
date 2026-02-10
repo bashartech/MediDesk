@@ -94,7 +94,7 @@ Create test HTML file with your production URL
 
 ### 6. Share with Hospitals
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ---
@@ -155,7 +155,7 @@ Create test HTML file with your production URL
 
 ### Embed Code
 ```html
-<script src="https://your-domain.com/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 ```
 
 ### Features
@@ -197,14 +197,14 @@ npm run preview
 ### Deployment Success
 ```bash
 vercel --prod
-# ✓ Production: https://your-project.vercel.app
-# Widget URL: https://your-project.vercel.app/medidesk.js
+# ✓ Production: https://medi-desk-omega.vercel.app
+# Widget URL: https://medi-desk-omega.vercel.app/medidesk.js
 ```
 
 ### Integration Success
 ```html
 <!-- Hospital adds this -->
-<script src="https://your-project.vercel.app/medidesk.js"></script>
+<script src="https://medi-desk-omega.vercel.app/medidesk.js"></script>
 <!-- Widget appears and works -->
 ```
 
