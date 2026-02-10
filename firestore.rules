@@ -1,0 +1,39 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // ============================
+    // CHAT LOGS
+    // ============================
+    match /chats/{chatId} {
+      // Anyone can create chat logs (widget users)
+      allow create: if true;
+
+      // No public reading of chats
+      allow read, update, delete: if false;
+    }
+
+    // ============================
+    // APPOINTMENT REQUESTS
+    // ============================
+    match /appointments/{appointmentId} {
+      // Anyone can create appointment requests
+      allow create: if true;
+
+      // Prevent updates or deletes from public
+      allow update, delete: if false;
+
+      // Admin panel read (demo only)
+      // In production, replace with proper auth
+      allow read: if request.auth != null;
+    }
+
+    // ============================
+    // DEFAULT DENY
+    // ============================
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

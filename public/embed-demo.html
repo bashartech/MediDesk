@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediDesk Embed Demo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #2563eb;
+      margin-bottom: 10px;
+    }
+    .subtitle {
+      color: #666;
+      margin-bottom: 30px;
+    }
+    .demo-section {
+      margin: 30px 0;
+      padding: 20px;
+      background: #f9fafb;
+      border-radius: 8px;
+      border: 1px solid #e5e7eb;
+    }
+    .code-block {
+      background: #1f2937;
+      color: #f3f4f6;
+      padding: 15px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-family: 'Courier New', monospace;
+      font-size: 14px;
+    }
+    .button {
+      background: #2563eb;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-right: 10px;
+    }
+    .button:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🏥 MediDesk Widget Demo</h1>
+    <p class="subtitle">This page demonstrates how MediDesk can be embedded on any website</p>
+
+    <div class="demo-section">
+      <h2>About This Demo</h2>
+      <p>
+        MediDesk is an AI-powered front desk assistant for hospitals and clinics.
+        It can be embedded on any website using a simple script tag.
+      </p>
+      <p>
+        Look for the blue chat button in the bottom-right corner of this page!
+      </p>
+    </div>
+
+    <div class="demo-section">
+      <h2>How to Embed MediDesk</h2>
+      <p>Add this script tag to your website:</p>
+      <div class="code-block">
+&lt;script src="https://your-domain.com/medidesk.js"&gt;&lt;/script&gt;
+      </div>
+      <p style="margin-top: 15px;">Or with custom configuration:</p>
+      <div class="code-block">
+&lt;script
+  src="https://your-domain.com/medidesk.js"
+  data-position="bottom-right"
+  data-theme="blue"
+  data-hospital-id="your-hospital-id"
+&gt;&lt;/script&gt;
+      </div>
+    </div>
+
+    <div class="demo-section">
+      <h2>Control the Widget</h2>
+      <p>You can control the widget programmatically:</p>
+      <button class="button" onclick="window.MediDesk?.open()">Open Widget</button>
+      <button class="button" onclick="window.MediDesk?.close()">Close Widget</button>
+      <button class="button" onclick="window.MediDesk?.toggle()">Toggle Widget</button>
+    </div>
+
+    <div class="demo-section">
+      <h2>Features</h2>
+      <ul>
+        <li>✅ Answer common hospital queries</li>
+        <li>✅ Book appointments</li>
+        <li>✅ View consultation fees</li>
+        <li>✅ Check hospital timings</li>
+        <li>✅ Get emergency contact information</li>
+        <li>✅ AI-powered responses with safety controls</li>
+        <li>✅ Works on any website (WordPress, Wix, Webflow, custom sites)</li>
+      </ul>
+    </div>
+
+    <div class="demo-section">
+      <h2>Compatible Platforms</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 15px;">
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>WordPress</strong>
+        </div>
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>Wix</strong>
+        </div>
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>Webflow</strong>
+        </div>
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>Custom HTML</strong>
+        </div>
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>PHP Sites</strong>
+        </div>
+        <div style="padding: 15px; background: white; border-radius: 6px; text-align: center;">
+          <strong>Any Website</strong>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MediDesk Widget Script -->
+  <!-- In production, this would be: -->
+  <!-- <script src="https://cdn.aykaysassist.com/medidesk.js"></script> -->
+
+  <!-- For development, the widget is loaded via the main app -->
+</body>
+</html>
